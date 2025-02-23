@@ -2,9 +2,9 @@
 This program validates vehicle license plates based on a specific format: two uppercase letters, followed by two digits, and ending with three uppercase letters (e.g., AB12XYZ). The program utilizes Flex for lexical analysis and Bison for parsing the input, ensuring that the license plates conform to the defined structure.
 ## Procedure
 1.	Lexical Analysis: The program uses Flex to tokenize the input string. It identifies:
-o	Two uppercase letters at the beginning.
-o	Two digits following the letters.
-o	Three uppercase letters at the end.
+- Two uppercase letters at the beginning.
+- Two digits following the letters.
+-	Three uppercase letters at the end.
 2.	Parsing: Bison defines the grammar rules that the input must match to be considered valid. When the license plate format is correct, it prints a success message; otherwise, it provides an error message.
 3.	Compilation: The program is compiled using the g++ compiler after generating the C files from the Flex and Bison files.
 4.	Execution: Upon running the program, the user is prompted to input a license plate, and the program validates it according to the defined rules.

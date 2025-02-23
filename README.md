@@ -19,7 +19,7 @@ Visual Studio Code
 3.	Compile the C File: g++ lex.yy.c license_plate.tab.c -o license_plate
 4.	Run the Program with Input File: ./license_plate
 ## Output
-
+![Output](https://github.com/SakshiBiyani02/Vehicle-License-plate-validation-using-lex-and-yacc/blob/main/Screenshot%202025-02-23%20131346.png?raw=true)
 ## Test Case Explanation
 ### Test Case 1: Valid License Plate
 Input: AB12XYZ

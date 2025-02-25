@@ -14,7 +14,7 @@ Visual Studio Code
 -	GCC (GNU Compiler Collection) for compiling C and C++ code.
 - Bison and Flex for generating the parser and lexer, respectively.
 ## Executable Commands
-1.	Generate C File from Bison Program: bison -d license_plate.y
+1.	Generate C File from Bison Program: bison -d license_plate.y : After executing this command, two files will be generated: license_plate.tab.c and license_plate.tab.h.
 2.	Generate C File from Lex Program: flex license_plate.l
 3.	Compile the C File: g++ lex.yy.c license_plate.tab.c -o license_plate
 4.	Run the Program with Input File: ./license_plate
